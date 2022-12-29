@@ -10,6 +10,11 @@ class Upravnik extends Model
 {
     use HasFactory;
 
+    protected $fillable = [
+        'ime_prezime',
+        'broj_licence'
+    ];
+
 
     public function zgrade()
     {
